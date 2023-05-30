@@ -8,6 +8,13 @@
 전체 트레이닝 셋이 신경망을 통과한 횟수를 의미함.
 1epoch) 전체 트레이닝 셋이 하나의 신경망에 적용되어 순전파와 역전파를 통해 신경망을 한 번 통과했다는 것을 의미함.
 
-# iteration
+### iteration
 ***
 1에포크를 마치는데 필요한 미니배치 개수
+
+***
+***
+
+# pandas_datareader의 사용법이 변경된 듯함.
+from pandas_datareader import data as pdr 형식으로 불러야
+get_data_yahoo가 작동한다.
